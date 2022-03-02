@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 390px;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.container h4{
+    margin-bottom: 27px;
+    margin-left: 19px;
+    /* padding-bottom: 22px; */
+    /* border-bottom: solid 1px black; */
+}
+
+.container form{
+    padding-top: 24px;
+    border-top: solid 1px rgb(190, 184, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+
+
+.login_social .box-social{
+    border: 1px solid #d1d7dc;;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 0px 13px 25px;
+    margin-bottom: 9px;
+    width: 330px;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%);
+}
+
+.login_social a{
+    color: black;
+}
+
+.login_social .box-social:hover{
+background-color: #f7f9fa;
+}
+
+.login_social .box-social img{
+    width: 22px;
+    height: 22px;
+    float: left;
+    position: relative;
+    top: -3px;
+    left: -11px;
+}
+
+/* ===================  stayling input form ==================  */
+
+.inputs input{
+    display:  block;
+    width: 330px;
+    padding: 13px 10px;
+    margin-bottom: -8px;
+    
+}
+
+.inputs .box-form input:not(input[type=submit]){
+    padding-left:41px;
+    outline:none;
+    font-size: 15px;
+}
+
+.inputs .box-form #login{
+    outline: none;
+    border: none;
+    font-weight: 900;
+    background-color: #A435F0;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+
+.inputs .box-form #login:hover{
+    cursor: pointer;
+    background-color: #7127a3;
+}
+
+.inputs .box-form i {
+    float: left;
+    position: relative;
+    top: -24px;
+    left: 15px;
+    color: grey;
+}
+
+
+/* ========================   last partie hhhh   ====================== */
+
+
+.forgot{
+    margin-bottom: 35px;
+}
+
+
+.creatAcount p a{
+   color: #A435F0;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+
+
+
