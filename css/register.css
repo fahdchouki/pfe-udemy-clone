@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 390px;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.container h4{
+    margin-bottom: 27px;
+    margin-left: 19px;
+    /* padding-bottom: 22px; */
+    /* border-bottom: solid 1px black; */
+}
+
+.container form{
+    padding-top: 24px;
+    border-top: solid 1px rgb(190, 184, 184);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;   
+}
+
+
+
+
+/* ===================  stayling input form ==================  */
+
+.inputs input{
+    display:  block;
+    width: 330px;
+    padding: 13px 10px;
+    margin-bottom: -8px;
+    
+}
+
+.inputs .box-form input:not(input[type=submit]){
+    padding-left:41px;
+    outline:none;
+    font-size: 15px;
+}
+
+.inputs .box-form #login{
+    outline: none;
+    border: none;
+    font-weight: 900;
+    background-color: #A435F0;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+
+.inputs .box-form #login:hover{
+    cursor: pointer;
+    background-color: #7127a3;
+}
+
+.inputs .box-form i {
+    float: left;
+    position: relative;
+    top: -24px;
+    left: 15px;
+    color: grey;
+}
+
+
+.checkBox{
+    width: 330px;
+    display: flex;
+    /* margin: 15px auto 20px auto; */
+    margin: 5px 12px 17px 0px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid rgb(190, 184, 184);
+}
+.checkBox input{
+    /* float: left; */
+    width: 129px;
+    height: 19px;
+    cursor: pointer;
+}
+.checkBox label{
+ cursor:pointer;
+}
+
+
+/* ========================   last partie hhhh   ====================== */
+
+
+.privacy{
+    margin-bottom: 35px;
+    font-size: 10px;
+}
+
+
+.creatAcount p a{
+   color: #A435F0;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+
+
+
