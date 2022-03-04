@@ -1,0 +1,9 @@
+/*********************** Had fichier mdyour 3la 9bl les notes ay wahd 3ndo chi mola7ada wla idee yktbha hna ************/
+
+
+
+
+salam walid bnisba l container 3od khdm b pourcentage blast mat3ti une valeur fixe par exemple : 
+.container{
+    width: 390px; // hna dir 50% o fmedia query bdl had nisba 3la 7ssab kola screen size 
+}
