@@ -7,3 +7,5 @@ salam walid bnisba l container 3od khdm b pourcentage blast mat3ti une valeur fi
 .container{
     width: 390px; // hna dir 50% o fmedia query bdl had nisba 3la 7ssab kola screen size 
 }
+
+ok 
